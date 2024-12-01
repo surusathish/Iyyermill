@@ -27,6 +27,17 @@
 
 	<body>
 
+		<!-- Whatsapp integration -->
+		<style>	div.fixed {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+		  }
+		  </style>
+		<div class="fixed"><figure><a href="https://api.whatsapp.com/send?phone=6380617716"><img src="images/yarn/wa.png" alt="whatsapp"></a></figure>
+		</div>
+		<!-- Whatsapp integration -->
+
 		<!-- Start Header/Navigation -->
 		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
 
@@ -427,34 +438,33 @@
                 </div>
               </div>
 
-              <form>
+              <form netlify rel="noopener noreferrer">
                 <div class="row">
                   <div class="col-6">
                     <div class="form-group">
                       <label class="text-black" for="fname">First name</label>
-                      <input type="text" class="form-control" id="fname">
+                      <input type="text" class="form-control" id="fname" name="First name">
                     </div>
                   </div>
                   <div class="col-6">
                     <div class="form-group">
                       <label class="text-black" for="lname">Last name</label>
-                      <input type="text" class="form-control" id="lname">
+                      <input type="text" class="form-control" id="lname" name="Last name">
                     </div>
                   </div>
                 </div>
                 <div class="form-group">
                   <label class="text-black" for="email">Email address</label>
-                  <input type="email" class="form-control" id="email">
+                  <input type="email" class="form-control" id="email" name="Email address">
                 </div>
 
                 <div class="form-group mb-5">
                   <label class="text-black" for="message">Message</label>
-                  <textarea name="" class="form-control" id="message" cols="30" rows="5"></textarea>
+                  <textarea name="Message" class="form-control" id="message" cols="30" rows="5"></textarea>
                 </div>
 
                 <button type="submit" class="btn btn-primary-hover-outline">Send Message</button>
               </form>
-
             </div>
 
           </div>
