@@ -375,7 +375,7 @@ a {
 }
 .we-help-section .imgs-grid .grid {
   position: relative;
-  z-index: 2; /* Ensuring default stacking order */
+  /* z-index: 2;  --Ensuring default stacking order */
 }
 .we-help-section .imgs-grid .grid img {
   border-radius: 20px;
@@ -388,7 +388,7 @@ a {
   -ms-grid-row: 1;
   -ms-grid-row-span: 27;
   grid-row: 1 / span 27;
-  z-index: 3; /* Bringing grid-1 above grid-3 */
+  /* z-index: 3;  To bring grid-1 above grid-3 */
 }
 .we-help-section .imgs-grid .grid.grid-2 {
   -ms-grid-column: 19;
